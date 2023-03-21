@@ -41,7 +41,7 @@ assets:
     type: list
     method: kh2msg
     source:
-    - name: msg/jp/sys.yml
+    - name: sys.yml
       language: text
 - name: obj\F_EX030.mset
   method: copy
