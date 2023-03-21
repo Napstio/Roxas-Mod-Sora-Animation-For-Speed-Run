@@ -5,6 +5,44 @@ game: kh2
 specifications: 0
 dependencies: 
 assets:
+
+
+- name: remastered\menu\us\title.2ld\US_title_2ld0.png
+  method: copy
+  platform: pc
+  package: kh2_first
+  multi: 
+  source:
+  - name: remastered\menu\us\title.2ld\US_title_2ld0.png
+    method: 
+    platform: 
+    package: 
+    multi: 
+    source: 
+    required: false
+    type: 
+    motionsetType: Default
+    language: 
+    isSwizzled: false
+    index: 0
+  required: false
+  type: 
+  motionsetType: Default
+  language: 
+  isSwizzled: false
+  index: 0
+- name: msg/jp/sys.bar
+  multi:
+  - name: msg/us/sys.bar
+  - name: msg/uk/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jp/sys.yml
+      language: text
 - name: obj\F_EX030.mset
   method: copy
   platform: pc
